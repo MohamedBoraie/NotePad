@@ -36,12 +36,12 @@ List<String> chat =['hi','hi','hi','hi','hi','hi','hi','hi','hi',];
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 15.0),
                   child: ListTile(
-
+onTap: (){},
                     title:  Text(chat[index],style: TextStyle(
                         color: Colors.white,fontSize: 30) ,),
                     leading: CircleAvatar(
-                        radius: 20,
-                        child: Icon(CupertinoIcons.settings)),
+                        radius: 25,
+                        child: Icon(CupertinoIcons.arrow_turn_up_right)),
                   ),
                 ),
               );

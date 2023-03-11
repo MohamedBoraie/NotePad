@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       //web RTc
         primarySwatch: Colors.purple,
       ),
-      home: HomePage()
+      home: layoutScreen()
     );
   }
 }

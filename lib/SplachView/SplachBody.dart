@@ -107,7 +107,7 @@ class _splashBodyState extends State<splashBody> with SingleTickerProviderStateM
 
 
   void goToNextPage() {
-    Future.delayed(Duration(seconds: 2),
+    Future.delayed( const Duration(seconds: 3),
             (){
          MyNavigator(context,layoutScreen() );
 
